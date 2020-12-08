@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-header {
+  background: #060122e8;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 0% 0% 50% 50%;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; */
+  /* box-shadow: 2px 2px 60px 1px #8922c4ee; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 50px 60px;
+
+  
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+  /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+  /* background-image: url(/src/assets/js-original.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover; */
+
+}
+
+.App-header-skeleton {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.semiseniortext{
+  padding: 0px;
+  margin: 0px;
+}
+
+.imageredonda{
+  border-radius: 50%;
+}
+
+.redesSociales{
+  margin-top: 1vh;
+  margin-left: 2px;
+  margin-right: 2px;
+  float: right;
+}
+
+.menu{
+  height: 40px;
+  position: fixed;
+}
+
+li{
+  transition: all 1.3s;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  color: #352C00 !important;
+  font-size: 18px;
+  line-height: 1;
+  padding: 18px 28px 18px;
+  cursor: pointer;
+  vertical-align: middle;
+  border-radius: 30px;
+  background: linear-gradient(to right, #060122f5, #1c1446f5, #301341f5);
+  margin-right: 9px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+li:hover {
+  text-decoration: none !important;
+  border-radius: 30px;
+  transition: all 0.3s;
+  transform: scale(1.01) translate(1px, 4px) skewY(-3deg);
+  background: linear-gradient(to right, #301341f5, #1c1446f5, #060122f5);
+}
+
+li a {
+  color: white !important;
+  margin: 15px;
+}
+
+.Footer{
+  background:  #060122;
+  height: 50px;
+  bottom: 0px;
+  position: relative;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
