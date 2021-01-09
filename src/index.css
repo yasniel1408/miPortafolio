@@ -1,11 +1,14 @@
-body {
+body,html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
+html{
+  overflow-x: hidden;
 }
 
 code {
@@ -64,7 +67,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color:#060122e8;
+  background-color:#040114;
   overflow: hidden;
   position: fixed;
   border-radius: 50%;
@@ -108,7 +111,7 @@ a svg:hover{
 }
 
 .closebtn:hover{
-  transform:scale(1.8);
+  transform:scale(1.2);
 }
 
 #ico{

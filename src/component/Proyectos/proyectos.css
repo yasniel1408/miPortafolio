@@ -1,0 +1,55 @@
+.timeline-flex{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+.listaproyectos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card{
+    transition: all 1.3s;
+    margin:40px;
+    width: 350px;
+    color: aliceblue !important;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 30px;
+    background: linear-gradient(to right, #060122f5, #1c1446f5, #301341f5);
+    /* box-shadow: 10px 30px 70px 5px #6e22c4a1; */
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 10px 10px;
+
+}
+  
+.card:hover {
+    text-decoration: none !important;
+    transition: all 0.3s;
+    transform: scale(1.01) translate(1px, 4px) skewY(-3deg);
+    background: linear-gradient(to right, #301341f5, #1c1446f5, #060122f5);
+}
+
+content{
+    padding: 18px 18px 18px;
+}
+
+content h1,p,h4,h2 {
+    margin: 10px;
+}
+
+.card img{
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+
+.tituloproyectos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

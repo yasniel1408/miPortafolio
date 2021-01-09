@@ -3,10 +3,9 @@ import './descripcion.css';
 
 const Proyectos = () => {
 
-
 	return(
-		<div className="descripcionDiv">
-            <h1>Computer Engineer, University of Cienfuegos 
+		<div className="descripcionDiv" id="about">
+            <h1 className="sizeH1">Computer Engineer, University of Cienfuegos 
                 Carlos Rafael Rodríguez, Cuba.</h1>
                 <p><strong><i>December</i> 2014 – July 2019</strong></p>
 			<p>

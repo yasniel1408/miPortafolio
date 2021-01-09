@@ -1,0 +1,27 @@
+.componentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+
+.habilidadestext{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}   
+
+.contenedordehabilidades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.habilidad{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to right, #060122f5, #1c1446f5, #301341f5);
+}
